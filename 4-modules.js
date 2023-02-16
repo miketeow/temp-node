@@ -1,5 +1,5 @@
 //Modules
-const names = require("./names");
-const sayHi = require("./utils");
-require("./function");
+const names = require("./1-names");
+const sayHi = require("./2-utils");
+require("./3-function");
 sayHi(names.person1);
